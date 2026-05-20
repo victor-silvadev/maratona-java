@@ -27,7 +27,6 @@ public class Seminario {
     public void imprime(){
         if (alunos == null){
             System.out.println(this.titulo+", Local: "+local.getEndereco());
-            System.out.println(" ");
             System.out.println("Professor - "+professor.getNome()+", Materia: "+professor.getEspecialidade());
             System.out.println(" ");
             System.out.println("SEM ALUNOS RESITRADOS!");
