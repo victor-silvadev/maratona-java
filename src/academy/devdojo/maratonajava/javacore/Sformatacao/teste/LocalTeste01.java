@@ -1,7 +1,6 @@
-package academy.devdojo.maratonajava.javacore.Rdate.teste;
+package academy.devdojo.maratonajava.javacore.Sformatacao.teste;
 
 import java.text.DateFormat;
-import java.time.LocalDate;
 import java.util.Calendar;
 import java.util.Locale;
 
