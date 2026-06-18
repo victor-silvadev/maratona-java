@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+
 public class MangaSortTeste01 {
     public static void main(String[] args) {
         List<Manga> mangas = new ArrayList<>();

@@ -24,6 +24,7 @@ public class ListSortTeste01 {
         Collections.sort(dinheiros);
 
 
+
         for(String manga : mangas){
             System.out.println(manga);
         }
