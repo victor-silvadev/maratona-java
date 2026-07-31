@@ -16,16 +16,17 @@ public class ConnectionFactoryTest01 {
 //        ProducerServices.save(producer);
 //        ProducerServices.save(producer2);
 
-
 //        ProducerServices.delete(2);
 //        ProducerServices.delete(3);
 //        ProducerServices.delete(4);
 //        ProducerServices.delete(5);
 //        ProducerServices.delete(6);
 
-
 //        Producer producerToUpdate = Producer.builder().id(1).name("Victor Silva").build();
 //        ProducerServices.update(producerToUpdate);
+
+//        Producer producerToUpdate = Producer.builder().id(1).name("Victor Silva").build();
+//        ProducerServices.updatePreparedStstement(producerToUpdate);
 
 //        List<Producer> all = ProducerServices.findAll();
 //        log.info("Producers found '{}'",all);
@@ -37,9 +38,21 @@ public class ConnectionFactoryTest01 {
 
 //        ProducerServices.showDriverMetaDate();
 
-        ProducerServices.showTypeScrollWorking();
+//        ProducerServices.showTypeScrollWorking();
 
+//        List<Producer> all = ProducerServices.findByNameAndUpdateToUpperCase("Studio");
+//        log.info("Producers found '{}'",all);
 
+//        List<Producer> all = ProducerServices.findByNameAndInsertWhenNotFound("A-1 pictures");
+//        log.info("Producers found '{}'",all);
+
+//        ProducerServices.findByNameAndDelte("A-1 pictures");
+
+//          List<Producer> all =  ProducerServices.findByNamePrepareStatement("studio");
+//          log.info("Producers found '{}'",all);
+//
+          List<Producer> all =  ProducerServices.findByNameCallableStatement("studio");
+          log.info("Producers found '{}'",all);
 
     }
 
