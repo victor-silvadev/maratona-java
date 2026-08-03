@@ -1,6 +1,5 @@
 package academy.devdojo.maratonajava.javacore.Npolimorfismo.servico;
 
-import academy.devdojo.maratonajava.javacore.Npolimorfismo.dominio.Computador;
 import academy.devdojo.maratonajava.javacore.Npolimorfismo.dominio.Produto;
 import academy.devdojo.maratonajava.javacore.Npolimorfismo.dominio.Tomate;
 
